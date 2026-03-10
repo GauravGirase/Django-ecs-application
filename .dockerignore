@@ -1,0 +1,46 @@
+# Python virtual environments
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Django migrations (optional, can copy only what's needed)
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Local settings, secrets
+*.sqlite3
+*.env
+.env.*
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files (ignore dockerignore itself)
+.dockerignore
+
+# Logs
+*.log
+logs/
+
+# linux
+.bash_logout
+.bashrc
+.cache
+.profile
+.ssh
+.sudo_as_admin_successful
+.terraform.d
+.wget-hsts
+Dockerfile
+bin
+include
+lib
+lib64
